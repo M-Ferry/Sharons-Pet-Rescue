@@ -1,7 +1,9 @@
+////Start coding
+
 const statusButton = document.querySelector("button");
 const pets = document.querySelector(".all-pets");
 
-/// start coding
+/// 
 const createPet = function (name, species) {
 	const pet = {
 		name: name,
@@ -21,7 +23,7 @@ const createPet = function (name, species) {
 			}
 		}
 	};
-
+////calling the function
 	return pet;
 };
 
